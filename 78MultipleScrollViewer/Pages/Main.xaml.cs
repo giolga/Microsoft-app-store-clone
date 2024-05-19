@@ -14,7 +14,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-using System.Windows.Media.Animation;//for DoubleAnimation
+using System.Windows.Media.Animation;
+using _78MultipleScrollViewer.UserControls;//for DoubleAnimation
 
 namespace _78MultipleScrollViewer.Pages
 {
@@ -23,9 +24,30 @@ namespace _78MultipleScrollViewer.Pages
     /// </summary>
     public partial class Main : Page
     {
+        public delegate void OnAppClicked(AnApp sender, RoutedEventArgs e);
+        public event OnAppClicked AppClicked;
         public Main()
         {
             InitializeComponent();
+
+            DealsAppsViewer.AppClicked += AnAppClicked;
+
+            ProductivityAppsL1.AppClicked += AnAppClicked;
+            ProductivityAppsL2.AppClicked += AnAppClicked;
+            ProductivityAppsL3.AppClicked += AnAppClicked;
+
+            EntertainmentAppsViewer.AppClicked += AnAppClicked;
+            GamingAppsViewer.AppClicked += AnAppClicked;
+
+            FeaturesAppsViewer.AppClicked += AnAppClicked;
+            MostPopularAppsViewer.AppClicked += AnAppClicked;
+            TopFreeAppsViewer.AppClicked += AnAppClicked;
+            TopFreeGamesAppsViewer.AppClicked += AnAppClicked;
+        }
+
+        private void AnAppClicked(AnApp sender, RoutedEventArgs e)
+        {
+            AppClicked(sender, e);
         }
 
         private void MainScrollViewer_Loaded(object sender, RoutedEventArgs e)

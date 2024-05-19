@@ -5,6 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:_78MultipleScrollViewer.Pages"
       xmlns:uc="clr-namespace:_78MultipleScrollViewer.UserControls"
+      xmlns:ucappdet="clr-namespace:_78MultipleScrollViewer.UserControls.AppDetailsTabContent"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="AppDetails">
@@ -30,13 +31,21 @@
                 </Grid.ColumnDefinitions>
 
                 <TabControl x:Name="AppDetailsTabControl" Grid.Column="1" HorizontalAlignment="Stretch">
-                    <TabItem Header="OverView"></TabItem>
+                    <TabItem Header="OverView">
+                        <ucappdet:OverView x:Name="OverviewTabUC" />
+                    </TabItem>
                     
-                    <TabItem Header="System Requierments"></TabItem>
+                    <TabItem Header="System Requierments">
+                        <ucappdet:SystemRequierments x:Name="SystemRequirementsTabUC"/>
+                    </TabItem>
                     
-                    <TabItem Header="Reviews"></TabItem>
+                    <TabItem Header="Reviews">
+                        <ucappdet:Reviews />
+                    </TabItem>
                     
-                    <TabItem Header="Related"></TabItem>
+                    <TabItem Header="Related">
+                        
+                    </TabItem>
                 </TabControl>
             </Grid>
         </StackPanel>

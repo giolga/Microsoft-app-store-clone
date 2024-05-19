@@ -31,3 +31,11 @@ C:\Users\GioLGA\Desktop\WPF\78MultipleScrollViewer\78MultipleScrollViewer\obj\De
 C:\Users\GioLGA\Desktop\WPF\78MultipleScrollViewer\78MultipleScrollViewer\obj\Debug\UserControls\AppDetailsTitleAndBackground.baml
 C:\Users\GioLGA\Desktop\WPF\78MultipleScrollViewer\78MultipleScrollViewer\obj\Debug\Pages\AppDetails.g.cs
 C:\Users\GioLGA\Desktop\WPF\78MultipleScrollViewer\78MultipleScrollViewer\obj\Debug\Pages\AppDetails.baml
+C:\Users\GioLGA\Desktop\WPF\78MultipleScrollViewer\78MultipleScrollViewer\obj\Debug\UserControls\AppDetailsTabContent\OverView.g.cs
+C:\Users\GioLGA\Desktop\WPF\78MultipleScrollViewer\78MultipleScrollViewer\obj\Debug\UserControls\AppDetailsTabContent\OverView.baml
+C:\Users\GioLGA\Desktop\WPF\78MultipleScrollViewer\78MultipleScrollViewer\obj\Debug\UserControls\AppDetailsTabContent\SystemRequierments.g.cs
+C:\Users\GioLGA\Desktop\WPF\78MultipleScrollViewer\78MultipleScrollViewer\obj\Debug\UserControls\AppDetailsTabContent\SystemRequierments.baml
+C:\Users\GioLGA\Desktop\WPF\78MultipleScrollViewer\78MultipleScrollViewer\obj\Debug\UserControls\AppDetailsTabContent\AReview.g.cs
+C:\Users\GioLGA\Desktop\WPF\78MultipleScrollViewer\78MultipleScrollViewer\obj\Debug\UserControls\AppDetailsTabContent\Reviews.g.cs
+C:\Users\GioLGA\Desktop\WPF\78MultipleScrollViewer\78MultipleScrollViewer\obj\Debug\UserControls\AppDetailsTabContent\AReview.baml
+C:\Users\GioLGA\Desktop\WPF\78MultipleScrollViewer\78MultipleScrollViewer\obj\Debug\UserControls\AppDetailsTabContent\Reviews.baml

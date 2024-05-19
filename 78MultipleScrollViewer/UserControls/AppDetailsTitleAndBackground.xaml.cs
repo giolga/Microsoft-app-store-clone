@@ -20,6 +20,11 @@ namespace _78MultipleScrollViewer.UserControls
     /// </summary>
     public partial class AppDetailsTitleAndBackground : UserControl
     {
+
+        public delegate void OnButtonClicked(object sender, RoutedEventArgs e);
+        public event OnButtonClicked BackButtonClicked;
+
+
         public AppDetailsTitleAndBackground()
         {
             InitializeComponent();
@@ -27,7 +32,7 @@ namespace _78MultipleScrollViewer.UserControls
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
-
+            BackButtonClicked(sender, e);
         }
     }
 }

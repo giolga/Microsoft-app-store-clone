@@ -21,6 +21,8 @@ namespace _78MultipleScrollViewer.UserControls
     public partial class AppsViewer : UserControl
     {
         List<AnApp> presentedApps;
+        public delegate void OnAppClicked(AnApp sender, RoutedEventArgs e);
+        public event OnAppClicked AppClicked;
         public AppsViewer()
         {
             InitializeComponent();
@@ -30,9 +32,15 @@ namespace _78MultipleScrollViewer.UserControls
 
             for (int i = 0; i < 9; i++)
             {
-                AnApp app = new AnApp();
-                presentedApps.Add(app);
+                AnApp curr = new AnApp();
+                curr.AppClicked += Curr_AppClicked;
+                presentedApps.Add(curr);
             }
+        }
+
+        private void Curr_AppClicked(AnApp sender, RoutedEventArgs e)
+        {
+            AppClicked(sender, e);
         }
 
         private void ScrollLeftButton_Click(object sender, RoutedEventArgs e)

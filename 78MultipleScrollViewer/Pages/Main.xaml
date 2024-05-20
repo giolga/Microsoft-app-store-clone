@@ -192,10 +192,10 @@
                         <uc:AppsViewer x:Name="ProductivityAppsL3"
                             Width="{Binding ElementName=MainTabControl, Path=ActualWidth}"
                             HorizontalAlignment="Left"  />
-                        
+
                     </StackPanel>
                 </ScrollViewer>
-                
+
             </TabItem>
             <!--TODO: Step 10: Add Deals tab, very similar to games tab -->
             <TabItem Header="Deals">
@@ -209,10 +209,11 @@
                         Width="{Binding ElementName=MainTabControl, Path=ActualWidth}"
                         HorizontalAlignment="Left" />
                 </StackPanel>
-                
+
             </TabItem>
         </TabControl>
-        
-        
+
+        <uc:HeaderRightButtons x:Name="RightHeaderButtons" Grid.Row="0" Grid.Column="2"/>
+
     </Grid>
 </Page>

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\GioLGA\Desktop\WPF\78MultipleScrollViewer\78MultipleScrollViewer\App.xaml
-12-798711788
+151562426180
 
-171272336731
+20349174311
 142019385203
-MainWindow.xaml;Pages\AppDetails.xaml;Pages\Main.xaml;UserControls\AnApp.xaml;UserControls\AppDetailsTabContent\AReview.xaml;UserControls\AppDetailsTabContent\OverView.xaml;UserControls\AppDetailsTabContent\Reviews.xaml;UserControls\AppDetailsTabContent\SystemRequierments.xaml;UserControls\AppDetailsTitleAndBackground.xaml;UserControls\AppsViewer.xaml;UserControls\ProductivityTopApps.xaml;UserControls\TopApps.xaml;
+MainWindow.xaml;Pages\AppDetails.xaml;Pages\Main.xaml;Pages\TopAppsWrapped.xaml;UserControls\AnApp.xaml;UserControls\AppDetailsTabContent\AReview.xaml;UserControls\AppDetailsTabContent\OverView.xaml;UserControls\AppDetailsTabContent\Related.xaml;UserControls\AppDetailsTabContent\Reviews.xaml;UserControls\AppDetailsTabContent\SystemRequierments.xaml;UserControls\AppDetailsTitleAndBackground.xaml;UserControls\AppsViewer.xaml;UserControls\HeaderRightButtons.xaml;UserControls\ProductivityTopApps.xaml;UserControls\TopApps.xaml;
 
 True
 

@@ -25,7 +25,7 @@
             Grid.Row="0"
             Grid.RowSpan="2"
             Grid.ColumnSpan="2"
-            Source="/Images/ProductivityAppIcons/ACDSee.png"
+            Source="/Images/ProductivityAppIcons/02-Photoshop.jpg"
             VerticalAlignment="Stretch"
             HorizontalAlignment="Stretch"
             Stretch="Fill"
@@ -36,7 +36,7 @@
         <Image
             Grid.Column="1"
             Grid.Row="2"
-            Source="/Images/ProductivityAppIcons/HotspotShield.png"
+            Source="/Images/ProductivityAppIcons/05-Watch.jpg"
             HorizontalAlignment="Stretch"
             VerticalAlignment="Stretch"
             Stretch="Fill"
@@ -46,7 +46,7 @@
         <Image
             Grid.Column="0"
             Grid.Row="2"
-            Source="/Images/ProductivityAppIcons/DrawboardPDF.png"
+            Source="/Images/ProductivityAppIcons/04-Snack.jpg"
             HorizontalAlignment="Stretch"
             VerticalAlignment="Stretch"
             Stretch="Fill"
@@ -62,7 +62,7 @@
                VerticalAlignment="Stretch"
                HorizontalAlignment="Stretch"
                Stretch="Fill"
-               Source="/Images/ProductivityAppIcons/Photoshop.png"
+               Source="/Images/ProductivityAppIcons/01-Finance.jpg"
                MouseUp="Image_MouseUp"
                Margin="2, 2, 2, 2"
                />
@@ -70,7 +70,7 @@
         <Image
             Grid.Column="2"
             Grid.Row="2"
-            Source="/Images/ProductivityAppIcons/PicsArt.png"
+            Source="/Images/ProductivityAppIcons/03-Slick Draw.jpg"
             HorizontalAlignment="Stretch"
             VerticalAlignment="Stretch"
             Stretch="Fill"
@@ -82,12 +82,84 @@
             Name="BottomRightImage"
             Grid.Column="3"
             Grid.Row="2"
-            Source="/Images/ProductivityAppIcons/YourPhone.png"
+            Source="/Images/ProductivityAppIcons/06-Phone.jpg"
             HorizontalAlignment="Stretch"
             VerticalAlignment="Stretch"
             Stretch="Fill"
             Margin="2, 2, 2, 2"
             MouseUp="Image_MouseUp"
-            />  
+            />
+
+        <Canvas Grid.Column="0"
+                Grid.ColumnSpan="4"
+                Grid.RowSpan="3"
+                Opacity="0.4"
+                Background="#2e2e2e"
+                IsHitTestVisible="False">
+        </Canvas>
+
+        <Label Name="AppNameLabelTop1"
+               Grid.Column="0"
+               Grid.Row="0"
+               Grid.ColumnSpan="2"
+               Grid.RowSpan="2"
+               FontSize="25"
+               FontWeight="DemiBold"
+               Foreground="White"
+               VerticalAlignment="Bottom"
+               HorizontalAlignment="Center"
+               Content="PhotoShop"/>
+
+        <Label Name="AppNameLabelTop2"
+               Grid.Column="2"
+               Grid.Row="0"
+               Grid.ColumnSpan="2"
+               Grid.RowSpan="2"
+               FontSize="25"
+               FontWeight="DemiBold"
+               Foreground="White"
+               VerticalAlignment="Bottom"
+               HorizontalAlignment="Center"
+               Content="PhotoShop"/>
+
+        <Label Name="AppNameLabelBottom1"
+               Grid.Column="0"
+               Grid.Row="2"
+               FontSize="25"
+               FontWeight="DemiBold"
+               Foreground="White"
+               VerticalAlignment="Bottom"
+               HorizontalAlignment="Center"
+               Content="Snack"/>
+
+        <Label Name="AppNameLabelBottom2"
+               Grid.Column="1"
+               Grid.Row="2"
+               FontSize="25"
+               FontWeight="DemiBold"
+               Foreground="White"
+               VerticalAlignment="Bottom"
+               HorizontalAlignment="Center"
+               Content="Watch"/>
+
+        <Label Name="AppNameLabelBottom3"
+               Grid.Column="2"
+               Grid.Row="2"
+               FontSize="25"
+               FontWeight="DemiBold"
+               Foreground="White"
+               VerticalAlignment="Bottom"
+               HorizontalAlignment="Center"
+               Content="Slick Draw"/>
+
+        <Label Name="AppNameLabelBottom4"
+               Grid.Column="3"
+               Grid.Row="2"
+               FontSize="25"
+               FontWeight="DemiBold"
+               Foreground="White"
+               VerticalAlignment="Bottom"
+               HorizontalAlignment="Center"
+               Content="Phone"/>
     </Grid>
 </UserControl>

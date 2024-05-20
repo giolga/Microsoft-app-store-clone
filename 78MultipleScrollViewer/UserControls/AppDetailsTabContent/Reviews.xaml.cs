@@ -23,14 +23,19 @@ namespace _78MultipleScrollViewer.UserControls.AppDetailsTabContent
         public Reviews()
         {
             InitializeComponent();
-        }
-
-        private void StackPanel_Loaded(object sender, RoutedEventArgs e)
-        {
-            for(int i = 0; i < 9; i++)
+            MainStackPanel.Children.Clear();
+            for (int i = 0; i < 9; i++)
             {
-                (sender as StackPanel).Children.Add(new AReview());
+                MainStackPanel.Children.Add(new AReview());
             }
         }
+
+        //private void StackPanel_Loaded(object sender, RoutedEventArgs e)
+        //{
+        //    for(int i = 0; i < 9; i++)
+        //    {
+        //        (sender as StackPanel).Children.Add(new AReview());
+        //    }
+        //}
     }
 }

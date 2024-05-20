@@ -85,6 +85,7 @@
                 Grid.Column="0"
                 Margin="2, 2, 2, 2"
                 Content="Top Apps"
+                Click="TopAppsButton_Click"
             />
 
             <Button 
@@ -125,6 +126,67 @@
             Margin="2, 2, 2, 2"
             MouseUp="Image_MouseUp"
             />
+
+        <Canvas Grid.Row="0"
+                Grid.Column="0"
+                Grid.ColumnSpan="4"
+                Grid.RowSpan="3"
+                Opacity="0.4"
+                Background="#2e2e2e"
+                IsHitTestVisible="False">
+        </Canvas>
+
+        <Label Name="AppNameLabelTop"
+               Grid.Column="0"
+               Grid.Row="0"
+               Grid.ColumnSpan="2"
+               Grid.RowSpan="2"
+               FontSize="25"
+               FontWeight="DemiBold"
+               Foreground="White"
+               VerticalAlignment="Bottom"
+               HorizontalAlignment="Center"
+               Content="Tropical"/>
+        
+        <Label Name="AppNameLabelRightTop"
+               Grid.Column="3"
+               Grid.Row="0"
+               FontSize="25"
+               FontWeight="DemiBold"
+               Foreground="White"
+               VerticalAlignment="Bottom"
+               HorizontalAlignment="Center"
+               Content="Circus Fun"/>
+        
+        <Label Name="AppNameLabelRightMiddle"
+               Grid.Column="3"
+               Grid.Row="1"
+               FontSize="25"
+               FontWeight="DemiBold"
+               Foreground="White"
+               VerticalAlignment="Bottom"
+               HorizontalAlignment="Center"
+               Content="Race extreem"/>
+        
+        <Label Name="AppNameLabelBottomLeft"
+               Grid.Column="2"
+               Grid.Row="2"
+               FontSize="25"
+               FontWeight="DemiBold"
+               Foreground="White"
+               VerticalAlignment="Bottom"
+               HorizontalAlignment="Center"
+               Content="Night Castle"/>
+
+        <Label Name="AppNameLabelBottomRight"
+               Grid.Column="3"
+               Grid.Row="2"
+               FontSize="25"
+               FontWeight="DemiBold"
+               Foreground="White"
+               VerticalAlignment="Bottom"
+               HorizontalAlignment="Center"
+               Content="Chat Message"/>
 
     </Grid>
 </UserControl>

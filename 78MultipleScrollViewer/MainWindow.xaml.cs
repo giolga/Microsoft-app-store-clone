@@ -23,25 +23,35 @@ namespace _78MultipleScrollViewer
     public partial class MainWindow : Window
     {
         private Main MainWindowContentPage;
+        private TopAppsWrapped MyTopAppsWrappedPage;
         public MainWindow()
         {
             InitializeComponent();
             MainWindowContentPage = new Main();
+            MyTopAppsWrappedPage = new TopAppsWrapped();
+            MyTopAppsWrappedPage.AppClicked += MainWindowContentPage_AppClicked;
+            MainWindowContentPage.TopAppButtonClicked += MainWindowContentPage_TopAppButtonClicked;
+            MyTopAppsWrappedPage.BackButtonClicked += BackButtonClicked;
             MainWindowContentPage.AppClicked += MainWindowContentPage_AppClicked;
 
+        }
+
+        private void MainWindowContentPage_TopAppButtonClicked(object sender, RoutedEventArgs e)
+        {
+            MainWindowFrame.Content = MyTopAppsWrappedPage;
         }
 
         private void MainWindowContentPage_AppClicked(AnApp sender, RoutedEventArgs e)
         {
             AppDetails myAppDetails = new AppDetails(sender);
-            myAppDetails.BackButtonClicked += MyAppDetails_BackButtonClicked;
+            myAppDetails.BackButtonClicked += BackButtonClicked;
             myAppDetails.AppClicked += MainWindowContentPage_AppClicked;
             MainWindowFrame.Content = myAppDetails;
         }
 
-        private void MyAppDetails_BackButtonClicked(object sender, RoutedEventArgs e)
+        private void BackButtonClicked(object sender, RoutedEventArgs e)
         {
-            if(MainWindowFrame.NavigationService.CanGoBack)
+            if (MainWindowFrame.NavigationService.CanGoBack)
             {
                 MainWindowFrame.NavigationService.GoBack();
             }

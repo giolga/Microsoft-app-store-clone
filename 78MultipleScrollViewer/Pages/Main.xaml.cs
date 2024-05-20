@@ -26,11 +26,18 @@ namespace _78MultipleScrollViewer.Pages
     {
         public delegate void OnAppClicked(AnApp sender, RoutedEventArgs e);
         public event OnAppClicked AppClicked;
+
+        public delegate void OnTopAppButtonClicked(object sender, RoutedEventArgs e);
+        public event OnTopAppButtonClicked TopAppButtonClicked;
+
         public Main()
         {
             InitializeComponent();
 
             DealsAppsViewer.AppClicked += AnAppClicked;
+
+            ProductivityTopApps.AppClicked += AnAppClicked;
+            TopApps.AppClicked += AnAppClicked;
 
             ProductivityAppsL1.AppClicked += AnAppClicked;
             ProductivityAppsL2.AppClicked += AnAppClicked;
@@ -38,6 +45,8 @@ namespace _78MultipleScrollViewer.Pages
 
             EntertainmentAppsViewer.AppClicked += AnAppClicked;
             GamingAppsViewer.AppClicked += AnAppClicked;
+
+            TopApps.TopAppButtonClicked += TopApps_TopAppButtonClicked;
 
             FeaturesAppsViewer.AppClicked += AnAppClicked;
             MostPopularAppsViewer.AppClicked += AnAppClicked;
@@ -48,6 +57,11 @@ namespace _78MultipleScrollViewer.Pages
         private void AnAppClicked(AnApp sender, RoutedEventArgs e)
         {
             AppClicked(sender, e);
+        }
+
+        private void TopApps_TopAppButtonClicked(object sender, RoutedEventArgs e)
+        {
+            TopAppButtonClicked(sender, e);
         }
 
         private void MainScrollViewer_Loaded(object sender, RoutedEventArgs e)

@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D88D158B-88A3-48FC-9720-FAC823E1D987}|78MultipleScrollViewer\\78MultipleScrollViewer.csproj|C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\78multiplescrollviewer\\usercontrols\\headerrightbuttons.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D88D158B-88A3-48FC-9720-FAC823E1D987}|78MultipleScrollViewer\\78MultipleScrollViewer.csproj|solutionrelative:78multiplescrollviewer\\usercontrols\\headerrightbuttons.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D88D158B-88A3-48FC-9720-FAC823E1D987}|78MultipleScrollViewer\\78MultipleScrollViewer.csproj|c:\\users\\giolga\\desktop\\wpf\\78multiplescrollviewer\\78multiplescrollviewer\\pages\\main.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D88D158B-88A3-48FC-9720-FAC823E1D987}|78MultipleScrollViewer\\78MultipleScrollViewer.csproj|solutionrelative:78multiplescrollviewer\\pages\\main.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D88D158B-88A3-48FC-9720-FAC823E1D987}|78MultipleScrollViewer\\78MultipleScrollViewer.csproj|C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\78multiplescrollviewer\\usercontrols\\headerrightbuttons.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D88D158B-88A3-48FC-9720-FAC823E1D987}|78MultipleScrollViewer\\78MultipleScrollViewer.csproj|solutionrelative:78multiplescrollviewer\\usercontrols\\headerrightbuttons.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D88D158B-88A3-48FC-9720-FAC823E1D987}|78MultipleScrollViewer\\78MultipleScrollViewer.csproj|c:\\users\\giolga\\desktop\\wpf\\78multiplescrollviewer\\78multiplescrollviewer\\usercontrols\\hamburgermenuviews\\hamburgermenuapp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D88D158B-88A3-48FC-9720-FAC823E1D987}|78MultipleScrollViewer\\78MultipleScrollViewer.csproj|solutionrelative:78multiplescrollviewer\\usercontrols\\hamburgermenuviews\\hamburgermenuapp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D88D158B-88A3-48FC-9720-FAC823E1D987}|78MultipleScrollViewer\\78MultipleScrollViewer.csproj|c:\\users\\giolga\\desktop\\wpf\\78multiplescrollviewer\\78multiplescrollviewer\\usercontrols\\hamburgermenuviews\\hamburgermenuapp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D88D158B-88A3-48FC-9720-FAC823E1D987}|78MultipleScrollViewer\\78MultipleScrollViewer.csproj|solutionrelative:78multiplescrollviewer\\usercontrols\\hamburgermenuviews\\hamburgermenuapp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D88D158B-88A3-48FC-9720-FAC823E1D987}|78MultipleScrollViewer\\78MultipleScrollViewer.csproj|c:\\users\\giolga\\desktop\\wpf\\78multiplescrollviewer\\78multiplescrollviewer\\usercontrols\\hamburgermenuviews\\hamburgermenuheader.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D88D158B-88A3-48FC-9720-FAC823E1D987}|78MultipleScrollViewer\\78MultipleScrollViewer.csproj|solutionrelative:78multiplescrollviewer\\usercontrols\\hamburgermenuviews\\hamburgermenuheader.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D88D158B-88A3-48FC-9720-FAC823E1D987}|78MultipleScrollViewer\\78MultipleScrollViewer.csproj|c:\\users\\giolga\\desktop\\wpf\\78multiplescrollviewer\\78multiplescrollviewer\\usercontrols\\hamburgermenuviews\\hamburgermenuheader.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D88D158B-88A3-48FC-9720-FAC823E1D987}|78MultipleScrollViewer\\78MultipleScrollViewer.csproj|solutionrelative:78multiplescrollviewer\\usercontrols\\hamburgermenuviews\\hamburgermenuheader.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,37 +43,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Main.xaml",
-              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\78MultipleScrollViewer\\Pages\\Main.xaml",
-              "RelativeDocumentMoniker": "78MultipleScrollViewer\\Pages\\Main.xaml",
-              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\78MultipleScrollViewer\\Pages\\Main.xaml",
-              "RelativeToolTip": "78MultipleScrollViewer\\Pages\\Main.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-20T13:21:50.612Z",
+              "Title": "HamburgerMenuApp.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\78MultipleScrollViewer\\UserControls\\HamburgerMenuVIews\\HamburgerMenuApp.xaml.cs",
+              "RelativeDocumentMoniker": "78MultipleScrollViewer\\UserControls\\HamburgerMenuVIews\\HamburgerMenuApp.xaml.cs",
+              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\78MultipleScrollViewer\\UserControls\\HamburgerMenuVIews\\HamburgerMenuApp.xaml.cs",
+              "RelativeToolTip": "78MultipleScrollViewer\\UserControls\\HamburgerMenuVIews\\HamburgerMenuApp.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T19:55:52.156Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserControls\\HeaderRightButtons.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\78MultipleScrollViewer\\UserControls\\HeaderRightButtons.xaml.cs",
-              "RelativeDocumentMoniker": "78MultipleScrollViewer\\UserControls\\HeaderRightButtons.xaml.cs",
-              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\78MultipleScrollViewer\\UserControls\\HeaderRightButtons.xaml.cs",
-              "RelativeToolTip": "78MultipleScrollViewer\\UserControls\\HeaderRightButtons.xaml.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAJAAAA",
+              "Title": "HamburgerMenuApp.xaml",
+              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\78MultipleScrollViewer\\UserControls\\HamburgerMenuVIews\\HamburgerMenuApp.xaml",
+              "RelativeDocumentMoniker": "78MultipleScrollViewer\\UserControls\\HamburgerMenuVIews\\HamburgerMenuApp.xaml",
+              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\78MultipleScrollViewer\\UserControls\\HamburgerMenuVIews\\HamburgerMenuApp.xaml",
+              "RelativeToolTip": "78MultipleScrollViewer\\UserControls\\HamburgerMenuVIews\\HamburgerMenuApp.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-20T19:55:47.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserControls\\HamburgerMenuVIews\\HamburgerMenuHeader.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\78MultipleScrollViewer\\UserControls\\HamburgerMenuVIews\\HamburgerMenuHeader.xaml.cs",
+              "RelativeDocumentMoniker": "78MultipleScrollViewer\\UserControls\\HamburgerMenuVIews\\HamburgerMenuHeader.xaml.cs",
+              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\78MultipleScrollViewer\\UserControls\\HamburgerMenuVIews\\HamburgerMenuHeader.xaml.cs",
+              "RelativeToolTip": "78MultipleScrollViewer\\UserControls\\HamburgerMenuVIews\\HamburgerMenuHeader.xaml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACQAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T13:01:59.587Z"
+              "WhenOpened": "2024-05-20T19:39:44.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HamburgerMenuHeader.xaml",
+              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\78MultipleScrollViewer\\UserControls\\HamburgerMenuVIews\\HamburgerMenuHeader.xaml",
+              "RelativeDocumentMoniker": "78MultipleScrollViewer\\UserControls\\HamburgerMenuVIews\\HamburgerMenuHeader.xaml",
+              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\78MultipleScrollViewer\\UserControls\\HamburgerMenuVIews\\HamburgerMenuHeader.xaml",
+              "RelativeToolTip": "78MultipleScrollViewer\\UserControls\\HamburgerMenuVIews\\HamburgerMenuHeader.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-20T19:33:47.206Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HeaderRightButtons.xaml",
-              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\78MultipleScrollViewer\\UserControls\\HeaderRightButtons.xaml",
-              "RelativeDocumentMoniker": "78MultipleScrollViewer\\UserControls\\HeaderRightButtons.xaml",
-              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\78MultipleScrollViewer\\UserControls\\HeaderRightButtons.xaml",
-              "RelativeToolTip": "78MultipleScrollViewer\\UserControls\\HeaderRightButtons.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-20T12:51:05.214Z",
+              "Title": "HeaderRightButtons.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\78MultipleScrollViewer\\UserControls\\HeaderRightButtons.xaml.cs",
+              "RelativeDocumentMoniker": "78MultipleScrollViewer\\UserControls\\HeaderRightButtons.xaml.cs",
+              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\78MultipleScrollViewer\\UserControls\\HeaderRightButtons.xaml.cs",
+              "RelativeToolTip": "78MultipleScrollViewer\\UserControls\\HeaderRightButtons.xaml.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAkwC0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T13:01:59.587Z",
               "EditorCaption": ""
             }
           ]

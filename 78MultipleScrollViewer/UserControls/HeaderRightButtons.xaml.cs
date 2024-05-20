@@ -20,6 +20,8 @@ namespace _78MultipleScrollViewer.UserControls
     /// </summary>
     public partial class HeaderRightButtons : UserControl
     {
+        public delegate void OnDownloadButtonClick(object sender, RoutedEventArgs e);
+        public event OnDownloadButtonClick HeaderRightButtonsDownloadButtonClick;
         public HeaderRightButtons()
         {
             InitializeComponent();
@@ -27,21 +29,30 @@ namespace _78MultipleScrollViewer.UserControls
 
         private void SearchButton_Click(object sender, RoutedEventArgs e)
         {
+            (sender as Button).Visibility = Visibility.Collapsed;
+            SearchTextBox.Visibility = Visibility.Visible;
+        }
 
+        public void MouseDown_OutsideOfHeaderRightButtons()
+        {
+            if(!SearchTextBox.IsMouseOver)
+            {
+                SearchTextBox.Visibility = Visibility.Collapsed;
+                SearchButton.Visibility = Visibility.Visible;
+            }
         }
 
         private void DownloadAndUpdatesMenuItem_Click(object sender, RoutedEventArgs e)
         {
-
+            HeaderRightButtonsDownloadButtonClick(sender, e);
         }
         private void DownloadButton_Click(object sender, RoutedEventArgs e)
         {
-
+            HeaderRightButtonsDownloadButtonClick(sender, e);
         }
 
         private void MenuItem_Click(object sender, RoutedEventArgs e)
         {
-
         }
     }
 }

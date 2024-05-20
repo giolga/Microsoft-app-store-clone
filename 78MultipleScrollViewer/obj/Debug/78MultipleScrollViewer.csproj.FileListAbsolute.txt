@@ -45,3 +45,9 @@ C:\Users\GioLGA\Desktop\WPF\78MultipleScrollViewer\78MultipleScrollViewer\obj\De
 C:\Users\GioLGA\Desktop\WPF\78MultipleScrollViewer\78MultipleScrollViewer\obj\Debug\Pages\TopAppsWrapped.baml
 C:\Users\GioLGA\Desktop\WPF\78MultipleScrollViewer\78MultipleScrollViewer\obj\Debug\UserControls\HeaderRightButtons.g.cs
 C:\Users\GioLGA\Desktop\WPF\78MultipleScrollViewer\78MultipleScrollViewer\obj\Debug\UserControls\HeaderRightButtons.baml
+C:\Users\GioLGA\Desktop\WPF\78MultipleScrollViewer\78MultipleScrollViewer\obj\Debug\UserControls\HamburgerMenuVIews\HamburgerMenuApp.g.cs
+C:\Users\GioLGA\Desktop\WPF\78MultipleScrollViewer\78MultipleScrollViewer\obj\Debug\UserControls\HamburgerMenuVIews\HamburgerMenuAppList.g.cs
+C:\Users\GioLGA\Desktop\WPF\78MultipleScrollViewer\78MultipleScrollViewer\obj\Debug\UserControls\HamburgerMenuVIews\HamburgerMenuHeader.g.cs
+C:\Users\GioLGA\Desktop\WPF\78MultipleScrollViewer\78MultipleScrollViewer\obj\Debug\UserControls\HamburgerMenuVIews\HamburgerMenuApp.baml
+C:\Users\GioLGA\Desktop\WPF\78MultipleScrollViewer\78MultipleScrollViewer\obj\Debug\UserControls\HamburgerMenuVIews\HamburgerMenuAppList.baml
+C:\Users\GioLGA\Desktop\WPF\78MultipleScrollViewer\78MultipleScrollViewer\obj\Debug\UserControls\HamburgerMenuVIews\HamburgerMenuHeader.baml

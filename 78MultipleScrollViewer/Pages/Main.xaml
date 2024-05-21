@@ -5,6 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:_78MultipleScrollViewer.Pages"
       xmlns:uc="clr-namespace:_78MultipleScrollViewer.UserControls"
+      xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Main">
@@ -22,14 +23,14 @@
             <ColumnDefinition Width="35"/>
         </Grid.ColumnDefinitions>
 
-        <TabControl 
-    x:Name="MainTabControl" 
-    Visibility="Visible"
-    Grid.Row="0" Grid.Column="1" 
-    Grid.RowSpan="2"
-    Grid.ColumnSpan="2"
-    ClipToBounds="True"
->
+        <mah:MetroAnimatedSingleRowTabControl 
+            x:Name="MainTabControl" 
+            Visibility="Visible"
+            Grid.Row="0" Grid.Column="1" 
+            Grid.RowSpan="2"
+            Grid.ColumnSpan="2"
+            ClipToBounds="True"
+        >   
             <TabItem Header="Home" Name="HomeTab">
                 <ScrollViewer Name="MainScrollViewer"
                       Margin="10"
@@ -211,7 +212,7 @@
                 </StackPanel>
 
             </TabItem>
-        </TabControl>
+        </mah:MetroAnimatedSingleRowTabControl>
 
         <uc:HeaderRightButtons x:Name="RightHeaderButtons" Grid.Row="0" Grid.Column="2"/>
 

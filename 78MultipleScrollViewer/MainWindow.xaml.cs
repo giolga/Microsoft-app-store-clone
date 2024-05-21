@@ -1,5 +1,6 @@
 ﻿using _78MultipleScrollViewer.Pages;
 using _78MultipleScrollViewer.UserControls;
+using MahApps.Metro.Controls;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,7 +21,9 @@ namespace _78MultipleScrollViewer
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    
+    //MahApps.Metro - Framework
+    public partial class MainWindow : MetroWindow
     {
         private Main MainWindowContentPage;
         private TopAppsWrapped MyTopAppsWrappedPage;

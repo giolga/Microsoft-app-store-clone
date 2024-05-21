@@ -26,7 +26,8 @@
                         </Grid>
                     </MenuItem.Header>
                     <MenuItem Width="350" Name="AllTypesMenuItem" Click="Filter_MenuItem_Click" Header="All Types"/>
-                    <MenuItem Width="350" Name="AppsTypesMenuItem" Click="Filter_MenuItem_Click" Header="Games"/>
+                    <MenuItem Width="350" Name="AppsTypesMenuItem" Click="Filter_MenuItem_Click" Header="Apps"/>
+                    <MenuItem Width="350" Name="GamesTypesMenuItem" Click="Filter_MenuItem_Click" Header="Games"/>
                     <MenuItem Width="350" Name="MoviesTypesMenuItem" Click="Filter_MenuItem_Click" Header="Movies"/>
                     <MenuItem Width="350" Name="AvatarsTypesMenuItem" Click="Filter_MenuItem_Click" Header="Avatars"/>
                 </MenuItem>

@@ -3,12 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D88D158B-88A3-48FC-9720-FAC823E1D987}|78MultipleScrollViewer\\78MultipleScrollViewer.csproj|C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\78multiplescrollviewer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D88D158B-88A3-48FC-9720-FAC823E1D987}|78MultipleScrollViewer\\78MultipleScrollViewer.csproj|solutionrelative:78multiplescrollviewer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D88D158B-88A3-48FC-9720-FAC823E1D987}|78MultipleScrollViewer\\78MultipleScrollViewer.csproj|C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\78multiplescrollviewer\\pages\\downloadsandupdates.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D88D158B-88A3-48FC-9720-FAC823E1D987}|78MultipleScrollViewer\\78MultipleScrollViewer.csproj|solutionrelative:78multiplescrollviewer\\pages\\downloadsandupdates.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D88D158B-88A3-48FC-9720-FAC823E1D987}|78MultipleScrollViewer\\78MultipleScrollViewer.csproj|c:\\users\\giolga\\desktop\\wpf\\78multiplescrollviewer\\78multiplescrollviewer\\pages\\downloadsandupdates.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D88D158B-88A3-48FC-9720-FAC823E1D987}|78MultipleScrollViewer\\78MultipleScrollViewer.csproj|solutionrelative:78multiplescrollviewer\\pages\\downloadsandupdates.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D88D158B-88A3-48FC-9720-FAC823E1D987}|78MultipleScrollViewer\\78MultipleScrollViewer.csproj|c:\\users\\giolga\\desktop\\wpf\\78multiplescrollviewer\\78multiplescrollviewer\\pages\\downloadsandupdates.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D88D158B-88A3-48FC-9720-FAC823E1D987}|78MultipleScrollViewer\\78MultipleScrollViewer.csproj|solutionrelative:78multiplescrollviewer\\pages\\downloadsandupdates.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GioLGA\\AppData\\Local\\Temp\\.vsdbgsrc\\573b2880de378bcf441369c3a2498b47757341930a70040b33011a78e0c10adf\\FrameworkTemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D88D158B-88A3-48FC-9720-FAC823E1D987}|78MultipleScrollViewer\\78MultipleScrollViewer.csproj|C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\78multiplescrollviewer\\pages\\main.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D88D158B-88A3-48FC-9720-FAC823E1D987}|78MultipleScrollViewer\\78MultipleScrollViewer.csproj|solutionrelative:78multiplescrollviewer\\pages\\main.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D88D158B-88A3-48FC-9720-FAC823E1D987}|78MultipleScrollViewer\\78MultipleScrollViewer.csproj|C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\78multiplescrollviewer\\pages\\main.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D88D158B-88A3-48FC-9720-FAC823E1D987}|78MultipleScrollViewer\\78MultipleScrollViewer.csproj|solutionrelative:78multiplescrollviewer\\pages\\main.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +33,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,19 +45,69 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrameworkTemplate.cs",
+              "DocumentMoniker": "C:\\Users\\GioLGA\\AppData\\Local\\Temp\\.vsdbgsrc\\573b2880de378bcf441369c3a2498b47757341930a70040b33011a78e0c10adf\\FrameworkTemplate.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\573b2880de378bcf441369c3a2498b47757341930a70040b33011a78e0c10adf\\FrameworkTemplate.cs",
+              "ToolTip": "C:\\Users\\GioLGA\\AppData\\Local\\Temp\\.vsdbgsrc\\573b2880de378bcf441369c3a2498b47757341930a70040b33011a78e0c10adf\\FrameworkTemplate.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\573b2880de378bcf441369c3a2498b47757341930a70040b33011a78e0c10adf\\FrameworkTemplate.cs [Read Only]",
+              "ViewState": "AQIAAAQDAAAAAAAAAAAkwBMDAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:28:23.602Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Main.xaml",
+              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\78MultipleScrollViewer\\Pages\\Main.xaml",
+              "RelativeDocumentMoniker": "78MultipleScrollViewer\\Pages\\Main.xaml",
+              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\78MultipleScrollViewer\\Pages\\Main.xaml",
+              "RelativeToolTip": "78MultipleScrollViewer\\Pages\\Main.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-21T12:22:50.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Main.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\78MultipleScrollViewer\\Pages\\Main.xaml.cs",
+              "RelativeDocumentMoniker": "78MultipleScrollViewer\\Pages\\Main.xaml.cs",
+              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\78MultipleScrollViewer\\Pages\\Main.xaml.cs",
+              "RelativeToolTip": "78MultipleScrollViewer\\Pages\\Main.xaml.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAqwDoAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:20:09.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\78MultipleScrollViewer\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "78MultipleScrollViewer\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\78MultipleScrollViewer\\MainWindow.xaml.cs",
+              "RelativeToolTip": "78MultipleScrollViewer\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:18:31.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Pages\\DownloadsAndUpdates.xaml.cs",
+              "Title": "DownloadsAndUpdates.xaml.cs",
               "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\78MultipleScrollViewer\\Pages\\DownloadsAndUpdates.xaml.cs",
               "RelativeDocumentMoniker": "78MultipleScrollViewer\\Pages\\DownloadsAndUpdates.xaml.cs",
               "ToolTip": "C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\78MultipleScrollViewer\\Pages\\DownloadsAndUpdates.xaml.cs",
               "RelativeToolTip": "78MultipleScrollViewer\\Pages\\DownloadsAndUpdates.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAowCIAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-21T11:50:39.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "DownloadsAndUpdates.xaml",
               "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\WPF\\78MultipleScrollViewer\\78MultipleScrollViewer\\Pages\\DownloadsAndUpdates.xaml",
               "RelativeDocumentMoniker": "78MultipleScrollViewer\\Pages\\DownloadsAndUpdates.xaml",

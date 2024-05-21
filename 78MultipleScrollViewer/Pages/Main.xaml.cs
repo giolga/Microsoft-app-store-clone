@@ -30,6 +30,9 @@ namespace _78MultipleScrollViewer.Pages
         public delegate void OnTopAppButtonClicked(object sender, RoutedEventArgs e);
         public event OnTopAppButtonClicked TopAppButtonClicked;
 
+        public delegate void OnDownloadsAndUpdates();
+        public event OnDownloadsAndUpdates DownloadsAndUpdatesClicked;
+
         public Main()
         {
             InitializeComponent();
@@ -52,6 +55,8 @@ namespace _78MultipleScrollViewer.Pages
             MostPopularAppsViewer.AppClicked += AnAppClicked;
             TopFreeAppsViewer.AppClicked += AnAppClicked;
             TopFreeGamesAppsViewer.AppClicked += AnAppClicked;
+
+            RightHeaderButtons.HeaderRightButtonsDownloadButtonClick += RightHeaderButtons_HeaderRightButtonsDownloadButtonClick;
         }
 
         private void AnAppClicked(AnApp sender, RoutedEventArgs e)
@@ -76,6 +81,16 @@ namespace _78MultipleScrollViewer.Pages
             };
 
             element.BeginAnimation(UIElement.OpacityProperty, animation);
+        }
+
+        private void Page_PreviewMouseDown(object sender, MouseButtonEventArgs e)
+        {
+            RightHeaderButtons.MouseDown_OutsideOfHeaderRightButtons();
+        }
+
+        private void RightHeaderButtons_HeaderRightButtonsDownloadButtonClick(object sender, RoutedEventArgs e)
+        {
+            DownloadsAndUpdatesClicked();
         }
     }
 }

@@ -27,21 +27,33 @@ namespace _78MultipleScrollViewer
     {
         private Main MainWindowContentPage;
         private TopAppsWrapped MyTopAppsWrappedPage;
+        private DownloadsAndUpdates MyDownloadsAndUpdates;
+
         public MainWindow()
         {
             InitializeComponent();
             MainWindowContentPage = new Main();
             MyTopAppsWrappedPage = new TopAppsWrapped();
+            MyDownloadsAndUpdates = new DownloadsAndUpdates();
+
+            MainWindowContentPage.DownloadsAndUpdatesClicked += MainWindowContentPage_DownloadsAndUpdatesClicked;
+
             MyTopAppsWrappedPage.AppClicked += MainWindowContentPage_AppClicked;
             MainWindowContentPage.TopAppButtonClicked += MainWindowContentPage_TopAppButtonClicked;
             MyTopAppsWrappedPage.BackButtonClicked += BackButtonClicked;
             MainWindowContentPage.AppClicked += MainWindowContentPage_AppClicked;
-
+            MyDownloadsAndUpdates.BackButtonClicked += BackButtonClicked;
+            
         }
 
         private void MainWindowContentPage_TopAppButtonClicked(object sender, RoutedEventArgs e)
         {
             MainWindowFrame.Content = MyTopAppsWrappedPage;
+        }
+
+        private void MainWindowContentPage_DownloadsAndUpdatesClicked()
+        {
+            MainWindowFrame.Content = MyDownloadsAndUpdates;
         }
 
         private void MainWindowContentPage_AppClicked(AnApp sender, RoutedEventArgs e)

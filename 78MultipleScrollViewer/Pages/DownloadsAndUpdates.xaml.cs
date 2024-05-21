@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using MahApps.Metro.Controls;
 
 namespace _78MultipleScrollViewer.Pages
 {
@@ -20,6 +21,10 @@ namespace _78MultipleScrollViewer.Pages
     /// </summary>
     public partial class DownloadsAndUpdates : Page
     {
+
+        public delegate void OnBackButtonClick(object sender, RoutedEventArgs e);
+        public event OnBackButtonClick BackButtonClicked;
+
         public DownloadsAndUpdates()
         {
             InitializeComponent();
@@ -27,12 +32,12 @@ namespace _78MultipleScrollViewer.Pages
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
-
+            BackButtonClicked(sender, e);
         }
 
-        private void HamburgerMenuControl_ItemInvoked(object sender, MahApps.Metro.Controls.HamburgerMenuItemInvokedEventArgs args)
+        private void HamburgerMenuControl_ItemInvoked(object sender, HamburgerMenuItemInvokedEventArgs e)
         {
-
+            HamburgerMenuControl.Content = e.InvokedItem;
         }
     }
 }

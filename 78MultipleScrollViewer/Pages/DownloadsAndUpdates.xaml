@@ -16,37 +16,34 @@
                 <DataTemplate x:Key="HamburgerMenuItem" DataType="{x:Type mah:HamburgerMenuGlyphItem}">
                     <Grid Height="48">
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="{Binding RelativeSource={RelativeSource AncestorLevel={x:Type mah:HamburgerMenu}}, Path=CompactPaneLength}" />
+                            <ColumnDefinition Width="{Binding RelativeSource={RelativeSource AncestorType={x:Type mah:HamburgerMenu}}, Path=CompactPaneLength}" />
                             <ColumnDefinition />
                         </Grid.ColumnDefinitions>
                         <Image Margin="12"
                                HorizontalAlignment="Center"
                                VerticalAlignment="Center"
-                               Source="{Binding Glyph}"/>
-
+                               Source="{Binding Glyph}" />
                         <TextBlock Grid.Column="1"
                                    VerticalAlignment="Center"
                                    FontSize="16"
-                                   Text="{Binding Label}"/>
+                                   Text="{Binding Label}" />
                     </Grid>
                 </DataTemplate>
+
                 <DataTemplate x:Key="HamburgerOptionsMenuItem" DataType="{x:Type mah:HamburgerMenuItem}">
                     <Grid Height="48">
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="{Binding RelativeSource={RelativeSource AncestorLevel={x:Type mah:HamburgerMenu}}, Path=CompactPaneLength}"/>
+                            <ColumnDefinition Width="{Binding RelativeSource={RelativeSource AncestorType={x:Type mah:HamburgerMenu}}, Path=CompactPaneLength}" />
                             <ColumnDefinition />
                         </Grid.ColumnDefinitions>
-
                         <ContentControl Grid.Column="0"
                                         Content="{Binding Tag}"
                                         Focusable="False"
                                         IsTabStop="False" />
-
                         <TextBlock Grid.Column="1"
                                    VerticalAlignment="Center"
                                    FontSize="16"
-                                   Text="{Binding Label}"/>
-
+                                   Text="{Binding Label}" />
                     </Grid>
                 </DataTemplate>
 
@@ -82,48 +79,71 @@
                 Click="BackButton_Click"
                 HorizontalAlignment="Left"/>
         <mah:HamburgerMenu x:Name="HamburgerMenuControl"
-                           Grid.Row="1"
-                           HamburgerVisibility="Collapsed"
-                           HamburgerWidth="48"
-                           IsPaneOpen="True"
-                           ItemInvoked="HamburgerMenuControl_ItemInvoked"
-                           ItemTemplate="{StaticResource HamburgerOptionsMenuItem}"
-                           SelectedIndex="1"
-                           Style="{StaticResource MahApps.Styles.HamburgerMenu.CreatorsUpdate}"
-                           VerticalScrollBarOnLeftSide="False">
+                   Grid.Row="1"
+                   HamburgerVisibility="Collapsed"
+                   HamburgerWidth="48"
+                   IsPaneOpen="True"
+                   ItemInvoked="HamburgerMenuControl_ItemInvoked"
+                   ItemTemplate="{StaticResource HamburgerMenuItem}"
+                   OptionsItemTemplate="{StaticResource HamburgerOptionsMenuItem}"
+                   SelectedIndex="1"
+                   Style="{StaticResource MahApps.Styles.HamburgerMenu.CreatorsUpdate}"
+                   VerticalScrollBarOnLeftSide="False" >
 
             <mah:HamburgerMenu.ItemsSource>
                 <mah:HamburgerMenuItemCollection>
-                    <mah:HamburgerMenuHeaderItem Label="My Library"/>
-                    <mah:HamburgerMenuGlyphItem Label="All owned" Glyph="/Images/024-books.png">
-                        <mah:HamburgerMenuGlyphItem.Tag>
-                            <HamburgerViews:AllOwned>
-                                 
-                            </HamburgerViews:AllOwned>
-                        </mah:HamburgerMenuGlyphItem.Tag>
-                    </mah:HamburgerMenuGlyphItem>
-
-                    <mah:HamburgerMenuGlyphItem Label="Installed" Glyph="/Images/015-folder.png">
+                    <mah:HamburgerMenuHeaderItem Label="My library"/>
+                    <mah:HamburgerMenuGlyphItem  Label="All owned" Glyph="/Images/024-books.png">
                         <mah:HamburgerMenuGlyphItem.Tag>
                             <HamburgerViews:AllOwned></HamburgerViews:AllOwned>
                         </mah:HamburgerMenuGlyphItem.Tag>
                     </mah:HamburgerMenuGlyphItem>
-
-                    <mah:HamburgerMenuGlyphItem Label="Downloads" Glyph="/Images/063-slide show app.png">
+                    <mah:HamburgerMenuGlyphItem  Label="Installed" Glyph="/Images/015-folder.png" >
                         <mah:HamburgerMenuGlyphItem.Tag>
                             <HamburgerViews:AllOwned></HamburgerViews:AllOwned>
                         </mah:HamburgerMenuGlyphItem.Tag>
                     </mah:HamburgerMenuGlyphItem>
-
-                    <mah:HamburgerMenuGlyphItem Label="Included with device" Glyph="/Images/070-file hosting.png">
+                    <mah:HamburgerMenuGlyphItem  Label="Ready to install" Glyph="/Images/036-browser.png" >
+                        <mah:HamburgerMenuGlyphItem.Tag>
+                            <HamburgerViews:AllOwned></HamburgerViews:AllOwned>
+                        </mah:HamburgerMenuGlyphItem.Tag>
+                    </mah:HamburgerMenuGlyphItem>
+                    <mah:HamburgerMenuGlyphItem  Label="Downloads" Glyph="/Images/063-slide show app.png" >
+                        <mah:HamburgerMenuGlyphItem.Tag>
+                            <HamburgerViews:AllOwned></HamburgerViews:AllOwned>
+                        </mah:HamburgerMenuGlyphItem.Tag>
+                    </mah:HamburgerMenuGlyphItem>
+                    <mah:HamburgerMenuGlyphItem  Label="Included with device" Glyph="/Images/070-file hosting.png"     >
                         <mah:HamburgerMenuGlyphItem.Tag>
                             <HamburgerViews:AllOwned></HamburgerViews:AllOwned>
                         </mah:HamburgerMenuGlyphItem.Tag>
                     </mah:HamburgerMenuGlyphItem>
                 </mah:HamburgerMenuItemCollection>
             </mah:HamburgerMenu.ItemsSource>
+
+            <mah:HamburgerMenu.ContentTemplate>
+                <DataTemplate>
+                    <Grid x:Name="ContentGrid">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="48" />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        
+                        <Border Grid.Row="0">
+                            <TextBlock  x:Name="Header"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        FontSize="24"
+                                        Text="{Binding Label}" />
+                        </Border>
+                        
+                        <mah:TransitioningContentControl x:Name="TheContent"
+                                                         Grid.Row="1"
+                                                         Focusable="False"
+                                                         Content="{Binding Tag}"  />
+                    </Grid>
+                </DataTemplate>
+            </mah:HamburgerMenu.ContentTemplate>
         </mah:HamburgerMenu>
-
-
     </Grid>
 </Page>
